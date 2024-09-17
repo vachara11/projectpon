@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="bule-300">
+    <ion-buttons slot="start">
+      <ion-back-button default-href="#"></ion-back-button>
+    </ion-buttons>
+    <ion-title>กลับไปหน้าหลัก</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="bule">
+
+  <ion-grid>
+     <ion-row>
+      <ion-col size="6" size-md="6" size-lg="4">
+        <ion-card class="text-center" (click)="navigateToDrinks()">
+          <img src="assets/img/01.png">
+          <ion-button id="present-alert">เครื่องดื่ม</ion-button>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6" size-md="6" size-lg="4">
+        <ion-card class="text-center" (click)="navigateToFood()">
+          <img src="assets/img/02.png">
+          <ion-button id="present-alert">ขนม</ion-button>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6" size-md="6" size-lg="4">
+        <ion-card class="text-center" (click)="navigateToNextPage12()">
+          <img src="assets/img/03.png">
+          <ion-button id="present-alert">ของทานเล่น</ion-button>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6" size-md="6" size-lg="4">
+        <ion-card class="text-center" (click)="navigateToMama()">
+          <img src="assets/img/04.png">
+          <ion-button id="present-alert">อาหารสำเร็จรูป</ion-button>
+        </ion-card>
+      </ion-col>
+     </ion-row>
+</ion-grid>
+</ion-content>

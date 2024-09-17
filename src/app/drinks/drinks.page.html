@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar color="bule-300">
+    <ion-buttons slot="start">
+      <ion-back-button (click)="goBack()"></ion-back-button>
+    </ion-buttons>
+    <ion-title>เครื่องดื่ม</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-item *ngFor="let i of items">
+    <ion-thumbnail slot="start">
+      <img [src]="i.imageURL">
+    </ion-thumbnail>
+     <ion-label>
+      {{ i.name }} <br>
+      <p>ราคา {{ i.price }} บาท</p>
+     </ion-label>
+  </ion-item>
+
+</ion-content>

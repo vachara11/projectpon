@@ -1,0 +1,74 @@
+// For information on how to create your own theme, please see:
+// http://ionicframework.com/docs/theming/
+
+:root {
+	--ion-color-bule: #A7E6FF;
+	--ion-color-bule-rgb: 167,230,255;
+	--ion-color-bule-contrast: #000000;
+	--ion-color-bule-contrast-rgb: 0,0,0;
+	--ion-color-bule-shade: #93cae0;
+	--ion-color-bule-tint: #b0e9ff;
+}
+
+.ion-color-bule {
+	--ion-color-base: var(--ion-color-bule);
+	--ion-color-base-rgb: var(--ion-color-bule-rgb);
+	--ion-color-contrast: var(--ion-color-bule-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-bule-contrast-rgb);
+	--ion-color-shade: var(--ion-color-bule-shade);
+	--ion-color-tint: var(--ion-color-bule-tint);
+}
+
+:root {
+	--ion-color-bule-100: #3ABEF9;
+	--ion-color-bule-100-rgb: 58,190,249;
+	--ion-color-bule-100-contrast: #000000;
+	--ion-color-bule-100-contrast-rgb: 0,0,0;
+	--ion-color-bule-100-shade: #33a7db;
+	--ion-color-bule-100-tint: #4ec5fa;
+}
+
+.ion-color-bule-100 {
+	--ion-color-base: var(--ion-color-bule-100);
+	--ion-color-base-rgb: var(--ion-color-bule-100-rgb);
+	--ion-color-contrast: var(--ion-color-bule-100-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-bule-100-contrast-rgb);
+	--ion-color-shade: var(--ion-color-bule-100-shade);
+	--ion-color-tint: var(--ion-color-bule-100-tint);
+}
+
+:root {
+	--ion-color-bule-200: #3572EF;
+	--ion-color-bule-200-rgb: 53,114,239;
+	--ion-color-bule-200-contrast: #000000;
+	--ion-color-bule-200-contrast-rgb: 0,0,0;
+	--ion-color-bule-200-shade: #2f64d2;
+	--ion-color-bule-200-tint: #4980f1;
+}
+
+.ion-color-bule-200 {
+	--ion-color-base: var(--ion-color-bule-200);
+	--ion-color-base-rgb: var(--ion-color-bule-200-rgb);
+	--ion-color-contrast: var(--ion-color-bule-200-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-bule-200-contrast-rgb);
+	--ion-color-shade: var(--ion-color-bule-200-shade);
+	--ion-color-tint: var(--ion-color-bule-200-tint);
+}
+
+:root {
+	--ion-color-bule-300: #050C9C;
+	--ion-color-bule-300-rgb: 5,12,156;
+	--ion-color-bule-300-contrast: #ffffff;
+	--ion-color-bule-300-contrast-rgb: 255,255,255;
+	--ion-color-bule-300-shade: #040b89;
+	--ion-color-bule-300-tint: #1e24a6;
+}
+
+.ion-color-bule-300 {
+	--ion-color-base: var(--ion-color-bule-300);
+	--ion-color-base-rgb: var(--ion-color-bule-300-rgb);
+	--ion-color-contrast: var(--ion-color-bule-300-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-bule-300-contrast-rgb);
+	--ion-color-shade: var(--ion-color-bule-300-shade);
+	--ion-color-tint: var(--ion-color-bule-300-tint);
+}

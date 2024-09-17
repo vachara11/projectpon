@@ -1,0 +1,55 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>ของกินเล่น</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">snacks</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <!-- ส่วนของขนม -->
+  <ion-list>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="assets/img/9-418362.png" />
+      </ion-thumbnail>
+      <ion-label>
+        <h2>เฟรนฟรายทอด</h2>
+        <p>ราคา 20-40 บาท</p>
+      </ion-label>
+    </ion-item>
+    
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="assets/img/zwof-listing.jpg" />
+      </ion-thumbnail>
+      <ion-label>
+        <h2>ลูกชิ้นทอด</h2>
+        <p>ราคา 10 บาท</p>
+      </ion-label>
+    </ion-item>
+    
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="assets/img/051052534_F.jpg" />
+      </ion-thumbnail>
+      <ion-label>
+        <h2>นักเก็ตไก่ทอด</h2>
+        <p>ราคา 20-40 บาท</p>
+      </ion-label>
+    </ion-item>
+    
+    
+  </ion-list>
+
+  <!-- Footer section with buttons for navigation -->
+  <ion-footer>
+    <ion-button expand="full" color="secondary" (click)="goBack()">ก่อนหน้า</ion-button>
+    <ion-button expand="full" color="tertiary" (click)="goNext()">ต่อไป</ion-button>
+  </ion-footer>
+
+</ion-content>

@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>ขนม</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="assets/img/ดั้งเดิม.jpg" />
+      </ion-thumbnail>
+      <ion-label>
+        <h2>เลย์รสมันฝรั่งแท้</h2>
+        <p>ราคา 10 บาท</p>
+      </ion-label>
+    </ion-item>
+    
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="assets/img/เมี่ยงคำ.png" />
+      </ion-thumbnail>
+      <ion-label>
+        <h2>เลย์รสเมี่ยงคำครบรส</h2>
+        <p>ราคา 10 บาท</p>
+      </ion-label>
+    </ion-item>
+    
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="assets/img/สาหร่าย.png" />
+      </ion-thumbnail>
+      <ion-label>
+        <h2>เลย์รสสาหร่าย</h2>
+        <p>ราคา 10 บาท</p>
+      </ion-label>
+    </ion-item>
+    
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="assets/img/big.png" />
+      </ion-thumbnail>
+      <ion-label>
+        <h2>PRข้าวเกรียบกุ้ง</h2>
+        <p>ราคา 10 บาท</p>
+      </ion-label>
+    </ion-item>
+    
+  </ion-list>
+  
+  <ion-footer>
+    <ion-button expand="full" color="secondary" (click)="goBack()">ก่อนหน้า</ion-button>
+    <ion-button expand="full" color="tertiary" (click)="goNdwdext()">ต่อไป</ion-button>
+  </ion-footer>
+</ion-content>
